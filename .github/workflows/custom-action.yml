@@ -19,4 +19,4 @@ jobs:
           name: 'GitHub User'
 
       - name: Display output
-        run: echo "Greeting: ${{ steps.custom_action.outputs.greeting }}"
+        run: 'echo "Greeting: ${{ steps.custom_action.outputs.greeting }}"'
